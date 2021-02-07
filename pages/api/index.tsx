@@ -1,11 +1,9 @@
-import styles from './index.module.css'
-
 function Heading(props) {
   return (
     <div>
-      <h1 className={styles.red}>{props.heading}</h1>
-    </div> 
-  )   
+      <h1 className="red">{props.heading}</h1>
+    </div>
+  )
 }
 
 export default function Home() {
@@ -14,5 +12,5 @@ export default function Home() {
       <Heading heading="Heading" />
       <h1>Here</h1>
     </div>
-  ) 
+  )
 }
