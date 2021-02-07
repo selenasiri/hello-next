@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <h1>Here</h1>
+    <h1>I am the index page, not Hello</h1>
   )
 }
